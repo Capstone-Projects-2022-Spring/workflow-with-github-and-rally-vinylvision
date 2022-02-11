@@ -114,7 +114,7 @@ public class CalculatorModel {
         return lhs + rhs;
     }
 
-    public double operationSubst(double rhs, double lhs) {
+    public double operationSubst(double lhs, double rhs) {
         return lhs - rhs;
     }
 
