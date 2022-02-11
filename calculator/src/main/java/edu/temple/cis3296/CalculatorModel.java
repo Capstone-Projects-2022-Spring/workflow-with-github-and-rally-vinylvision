@@ -128,7 +128,7 @@ public class CalculatorModel {
 
     public double operationPercent(double value) { return 0.1; }
 
-    public double operationInverse(double value) { return -42.0; }
+    public double operationInverse(double value) { return (-1 * value); }
 
 
 }
